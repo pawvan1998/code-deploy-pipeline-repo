@@ -1,4 +1,4 @@
-#!/ bin/bash
+#!/bin/bash
 #accessing instance metadata
 EC2_INSTANCE_ID=$(curl -s http://15.206.68.129/latest/meta-data/instance-id)
 EC2_AZ=$(curl -s http://15.206.68.129/latest/meta-data/placement/availability-zone)
